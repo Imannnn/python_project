@@ -18,9 +18,7 @@ class CrimeFileReader:
     def print_all_cell_data(self):
         list = []
         for row in self.worksheet.values:
-            dict_data= { "Year" : row[0], "Violent_Crime": row[1] , "Murder": row[2], "Robbery":row[3], "Population":row[4]}
-
-            list.append(dict_data)
+            list.append(row)
         return list[1:]
 
 
