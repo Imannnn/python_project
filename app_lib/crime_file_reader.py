@@ -28,5 +28,5 @@ class CrimeFileReader:
             for p in i:
                 print(p.coordinate)
 
-reader= CrimeFileReader("California_Gang_Crime.xlsx")
+reader= CrimeFileReader("car_accidents.xlsx")
 print(reader.print_all_cell_data())

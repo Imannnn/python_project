@@ -10,7 +10,7 @@ class CrimeItem():
         return self. crime_items[key]
 
     def delete_crime_item(self, item):
-        del self.crime_item [item]
+        del self.crime_item[item]
 
     def print_crime_items(self):
         print(self.crime_items)
