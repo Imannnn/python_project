@@ -1,5 +1,4 @@
-from statistics import *
-from itertools import groupby
+import math
 # print("--------------------------Making a calculation method-----------------------------")
 
 class Calculations:
@@ -18,11 +17,23 @@ class Calculations:
         average = round(total_number_of_casualities/ length )
         print(average)
 
-    def maximum_number_casualities(self,data):
-        print("The maximum number of casualties in 2017 was: ")
+    def average_age_of_casualities(self, data):
+        print("The average age of casualities in the UK is:")
+        length = len(data)
+        total_age_of_casualities = 0
         for item in data[1:]:
-            maximum = max(item[3])
-            print(maximum)
+            total_age_of_casualities += item[9]
+        average = round(total_age_of_casualities/ length )
+        print(average)
+
+
+
+    def sex_of_casuality (self, data):
+        print("The gender of the casuality with the highest number of casuilities is:")
+        for item in data[1:]:
+            if item[1] == 11:
+                print( "Gender: " + str(item[8]))
+
 
     def junction_control_with_high_casualities(self,data):
         print("The junction(s) with the highest number of casualties in 2017 are: ")
@@ -30,12 +41,19 @@ class Calculations:
             if item[1] == 11:
                 print( "Junction control: " + str(item[3]))
 
-    # def junction_control_with_low_casualities(self,data):
-    #     print( "The junction(s) with the lowest number of casualties in 2017 are: ")
-    #     for item in data[1:]:
-    #         if item[1] <= 3:
-    #
-    #             print(item[3].count("Give way"))
+
+    def weateher_with_high_casualities (self, data):
+        print("The weather condition with the highest number of accidents is:")
+        for item in data[1:]:
+            if item[1]== 11:
+                print("Weather condition:" + str(item[5]))
+
+    def lighting_condition(self,data):
+        print("The lighting condition with the highest number of accidents is:")
+        for item in data[1:]:
+            if item[1] == 11:
+                print("Lighting condition:" + str(item[4]))
+
 
 
 
