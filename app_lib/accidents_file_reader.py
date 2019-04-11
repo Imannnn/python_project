@@ -2,7 +2,7 @@ from openpyxl import load_workbook
 from app_lib.class_data import Crime
 
 
-class CrimeFileReader:
+class AccidentsFileReader:
 
     def __init__(self, file_name_and_path):
         self.workbook = load_workbook(file_name_and_path, read_only=True)
@@ -28,5 +28,5 @@ class CrimeFileReader:
             for p in i:
                 print(p.coordinate)
 
-reader= CrimeFileReader("car_accidents.xlsx")
+reader= AccidentsFileReader("car_accidents.xlsx")
 print(reader.print_all_cell_data())

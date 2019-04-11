@@ -1,4 +1,4 @@
-from app_lib.crime_items_manager import BudgetItem
+from app_lib.accidents_items_manager import BudgetItem
 class TestBudgetItemManager:
     budget_item_manager = BudgetItem()
 
