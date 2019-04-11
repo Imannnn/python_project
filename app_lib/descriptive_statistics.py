@@ -89,11 +89,17 @@ print("- Perhaps Give way signs need to be made brighter, or reconsidered in ord
 input()
 print("The casualities are most likely to be men who are in their mid-30s ")
 
+input()
 
-
-
-
-
-
-
-# create a scene of when and why accidents happen
+print("--------------------------------------------------------------------------------------------------------")
+print("                                                Retrospective  ")
+print("--------------------------------------------------------------------------------------------------------")
+input()
+print(" I've learnt a lot from doing this project, which includes the following:")
+input()
+print("1- It is not very agile to write big block of codes")
+input()
+print("2- It's ok to dive in")
+input()
+print("3- Use sudo code to help you know what you want to code ")
+print("3- Even when I struggled I had a lot of fun")
