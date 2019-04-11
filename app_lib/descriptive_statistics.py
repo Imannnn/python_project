@@ -69,9 +69,25 @@ input()
 print("Hmmmm, I would of thought give way signs were less visible during night time. "
       "However, it seems the lighting conditions were good")
 input()
-print("Could it possibly be  ")
+print("Could it possibly be the weather conditions that have made the Give way sign not efficient? ")
+input()
 calc.weateher_with_high_casualities(crime_data)
 input()
+print("Yes, it seems that the weather has an influence on the efficency of how well Give way signs perform")
+input()
+
+print("--------------------------------------------------------------------------------------------------------")
+print("                                                Conclusion ")
+print("--------------------------------------------------------------------------------------------------------")
+input()
+print("From the analysis I have found that:")
+print("- Car accidents are most likely to happen at junctions that have Give way signs")
+input()
+print("- Give way signs are less efficient when the weather is foggy")
+input()
+print("- Perhaps Give way signs need to be made brighter, or reconsidered in order to reduce accidents")
+
+
 
 
 
