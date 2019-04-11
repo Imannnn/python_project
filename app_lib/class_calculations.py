@@ -3,7 +3,7 @@ import math
 
 class Calculations:
     def __init__(self):
-        print("Lets start calculations")
+        print("")
 
     def introduction(self):
         print("Lets get started with some statistical analysis")
@@ -29,7 +29,7 @@ class Calculations:
 
 
     def sex_of_casuality (self, data):
-        print("The gender of the casuality with the highest number of casuilities is:")
+        print("The gender with the highest number of casuilities is:")
         for item in data[1:]:
             if item[1] == 11:
                 print( "Gender: " + str(item[8]))
