@@ -13,7 +13,7 @@ class Calculations:
         length = len(data)
         total_number_of_casualities = 0
         for item in data[1:]:
-            total_number_of_casualities += item[2]
+            total_number_of_casualities += item[1]
         average = round(total_number_of_casualities/ length )
         print(average)
 
