@@ -71,7 +71,7 @@ print("Hmmmm, I would of thought give way signs were less visible during night t
 input()
 print("Could it possibly be the weather conditions that have made the Give way sign not efficient? ")
 input()
-calc.weateher_with_high_casualities(crime_data)
+calc.weather_with_high_casualities(crime_data)
 input()
 print("Yes, it seems that the weather has an influence on the efficency of how well Give way signs perform")
 input()
@@ -86,6 +86,8 @@ input()
 print("- Give way signs are less efficient when the weather is foggy")
 input()
 print("- Perhaps Give way signs need to be made brighter, or reconsidered in order to reduce accidents")
+input()
+print("The casualities are most likely to be men who are in their mid-30s ")
 
 
 

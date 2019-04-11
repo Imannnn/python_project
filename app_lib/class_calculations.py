@@ -42,7 +42,7 @@ class Calculations:
                 print( "Junction control: " + str(item[3]))
 
 
-    def weateher_with_high_casualities (self, data):
+    def weather_with_high_casualities (self, data):
         print("The weather condition with the highest number of accidents is:")
         for item in data[1:]:
             if item[1]== 11:
